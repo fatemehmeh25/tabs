@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tabs Example</title>
+    <link rel="stylesheet" href="tabs.css">
+</head>
+<body>
+    <header>
+        <h1>Fixed Header</h1>
+        <p>This header remains unchanged when switching tabs.</p>
+    </header>
+    <div class="tabs">
+        <button class="tab active" data-tab="tab1">Tab 1</button>
+        <button class="tab" data-tab="tab2">Tab 2</button>
+        <button class="tab" data-tab="tab3">Tab 3</button>
+        <button class="tab" data-tab="tab4">Tab 4</button>
+    </div>
+    <div class="tab-content active" id="tab1">
+        <h2>Tab 1 Content</h2>
+        <p>This is the content for Tab 1.</p>
+    </div>
+    <div class="tab-content" id="tab2">
+        <h2>Tab 2 Content</h2>
+        <p>This is the content for Tab 2.</p>
+    </div>
+    <div class="tab-content" id="tab3">
+        <h2>Tab 3 Content</h2>
+        <p>This is the content for Tab 3.</p>
+    </div>
+    <div class="tab-content" id="tab4">
+        <h2>Tab 4 Content</h2>
+        <p>This is the content for Tab 4.</p>
+    </div>
+    <footer>
+        <p>Fixed Footer - This footer remains unchanged when switching tabs.</p>
+    </footer>
+    <script src="tabs.js"></script>
+</body>
+</html> 
